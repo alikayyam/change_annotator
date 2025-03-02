@@ -1,0 +1,64 @@
+# predictedmask: 'predicted_y.png' # from old 
+predictedmask: 'predicted_x.png' # from FresUNet trained on our EyePacs annotated data by me and chait
+
+predictedmask: 'predicted.png' # marius output
+
+# predictedmask: 'change_vit_1024.png'  # trained on our data
+
+# predictedmask: 'change_vit_1024_eyepacs.png' # trained on marius output
+
+
+
+# predictedmask: 'change_vit.png' #  256 res
+
+
+# predictedmask: 'change_mask.png' # 
+
+predictedmask: 'change_vit_1024_2way.png' # trained on marius output
+
+# predictedmask: 'change_vit_1024_2way_new.png' # trained on our data  and removing blank regions
+
+predictedmask: 'change_vit_1024_2way_mariusckpt.png' # trained on marius output
+
+# predictedmask: 'change_vit_1024_2way_mariusckpt_fullsize.png' # trained on marius output
+
+# predictedmask: 'change_vit_1024_2way_mariusckpt_greg_fullsize.png' # trained on marius output
+
+
+
+
+
+
+# predicted_mask: 'model_on_ali_chait.png'
+# predicted_mask: 'model_on_greg.png' 
+# # predicted_mask: 'model_on_greg_good.png' 
+# predicted_mask: 'model_on_ali_greg.png' 
+# predicted_mask: 'model_on_ali_greg_100.png' 
+# predicted_mask: 'model_all_data.png' 
+# predicted_mask: 'model_all_greg_dennis.png' 
+# predicted_mask: 'model_all_greg_dennis_aug.png'
+# predicted_mask: 'model_all_data_sep30.png'
+# predicted_mask: 'model_all_data_sep30_higher_confidence.png'
+# predicted_mask: 'model_all_data_512.png'
+# predicted_mask: 'model_gwd_data_512_mariusbb.png'
+# predicted_mask: 'model_ali_GWD_data_512_mariusbb.png'
+predicted_mask: 'model_all_data_512_mariusbb_newnorm.png' # seems to be the best model so far
+# predicted_mask: 'model_all_512_noartifacts.png'
+
+gt_mask: 'model_ali_512_noartifacts.png'
+# gt_mask: 'model_all_data_512_newnorm.png'
+# gt_mask: 'model_ali_GWD_data_512_mariusbb.png'
+# gt_mask: 'model_all_512_noartifacts.png'
+# gt_mask: 'model_all_data_256_mariusbb_newnorm.png'
+# gt_mask: 'model_all_data_256_sep30.png'
+# gt_mask: 'model_all_data_512_mariusbb_newnorm.png'
+# gt_mask: 'model_gwd_data_512_mariusbb.png'
+# gt_mask : 'change_mask.png'
+# gt_mask : 'model_on_ali_chait.png'
+# gt_mask : 'change_vit_1024_2way.png'
+# gt_mask : 'predicted.png'
+# gt_mask : 'model_all_data.png'
+# gt_mask: 'model_all_greg_dennis.png' 
+
+
+which_set: 'test'

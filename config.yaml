@@ -1,0 +1,5 @@
+lesions:
+  types: ['exudates', 'cottonwoolspots', 'hemorrhages', 'microaneurysms']
+colors: {'tp': 'blue', 'fp':'red', 'fn':'Orange', 'q':'black'}
+# pred_name: 'change_vit_1024_2way_mariusckpt.png' # name of the prediction png file for lestion change annotation 
+pred_name: 'model_all_data.png' # name of the prediction png file for lestion change annotation 
